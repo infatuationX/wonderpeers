@@ -1,0 +1,230 @@
+{
+	"pages": [
+		{
+			"path": "pages/fontpage/fontpage",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},	
+		{
+			"path": "pages/personalAuthentication/personalAuthentication",
+			"style": {
+				"navigationBarTitleText": "身份认证",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		
+		{
+			"path": "pages/publishSuccess/publishSuccess",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},	
+		{
+			"path": "pages/income/income",
+			"style": {
+				"navigationBarTitleText": "我的收益",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/offerEdit/offerEdit",
+			"style": {
+				"navigationBarTitleText": "offer编辑",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/offerAuthenticationv2/offerAuthenticationv2",
+			"style": {
+				"navigationBarTitleText": "offer认证",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/pageDetail/pageDetail",
+			"style": {
+				"navigationBarTitleText": "资料详情",
+				"navigationBarBackgroundColor": "#f2fafa",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/edit/edit",
+			"style": {
+				"navigationBarTitleText": "编辑修改",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/myPeers/myPeers",
+			"style": {
+				"navigationBarTitleText": "我的豆子",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},	
+		{
+			"path": "pages/authenticationSuccess/authenticationSuccess",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/activityAuthentication/activityAuthentication",
+			"style": {
+				"navigationBarTitleText": "活动经历",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+
+	
+		{
+			"path": "pages/pageDetailPublisher/pageDetailPublisher",
+			"style": {
+				"navigationBarTitleText": "发布详情",
+				"navigationBarBackgroundColor": "#f2fafa",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/peersDetail/peersDetail",
+			"style": {
+				"navigationBarTitleText": "豆子明细",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},	
+		{
+			"path": "pages/EduAuthentication/EduAuthentication",
+			"style": {
+				"navigationBarTitleText": "教育经历",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		
+		{
+			"path": "pages/provision/provision",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/wonderpeers/wonderpeers",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/publish/publish",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/myDetails/myDetails",
+			"style": {
+				"navigationBarTitleText": "我的解锁",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/publishDetail/publishDetail",
+			"style": {
+				"navigationBarTitleText": "发布详情",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+	
+		{
+			"path": "pages/aboutPeers/aboutPeers",
+			"style": {
+				"navigationBarTitleText": "豆子详情",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},	
+		{
+			"path": "pages/otherProfile/otherProfile",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/myFollow/myFollow",
+			"style": {
+				"navigationBarTitleText": "我的关注",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/otherFollow/otherFollow",
+			"style": {
+				"navigationBarTitleText": "ta的关注",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/otherPublish/otherPublish",
+			"style": {
+				"navigationBarTitleText": "ta的解锁",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		}	
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#00A29A",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"custom": true,
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/fontpage/fontpage",
+				"iconPath": "static/pic/tabbar/planet.png",
+				"selectedIconPath": "static/pic/tabbar/planet-select.png"
+			}, {
+				"pagePath": "pages/publish/publish",
+				"iconPath": "static/pic/tabbar/plus.png",
+				"selectedIconPath": "static/pic/tabbar/plus-select.png"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"iconPath": "static/pic/tabbar/me.png",
+				"selectedIconPath": "static/pic/tabbar/me-select.png"
+			}
+		]
+	}
+}
